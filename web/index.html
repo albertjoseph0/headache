@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Headache</title>
+  <meta name="description" content="Seven prompts a day. Name one thing. Rare answers sink you deeper.">
+  <meta name="theme-color" content="#0b4f6c">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="/fonts/anton-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/style.css">
+  <script type="module" src="/app.js"></script>
+</head>
+<body>
+  <div class="water" aria-hidden="true">
+    <div class="rays"></div>
+    <div class="bubbles"></div>
+  </div>
+
+  <aside class="gauge" aria-label="Depth gauge">
+    <div class="gauge-track">
+      <div class="gauge-fill"></div>
+      <div class="gauge-marker"><span id="gauge-label">0 M</span></div>
+    </div>
+    <span class="gauge-bottom">TRENCH<br><span id="trench-label">700</span></span>
+  </aside>
+
+  <main>
+    <section id="loading" class="screen screen-center">
+      <p class="meta pulse">SOUNDING…</p>
+    </section>
+
+    <section id="surface" class="screen" hidden>
+      <h1 class="title" id="title">HEADACHE</h1>
+      <p class="meta" id="dive-number"></p>
+      <h2 class="howto-title">HOW TO PLAY</h2>
+      <ul class="howto" id="howto"></ul>
+      <button class="btn" id="dive" type="button">DIVE</button>
+    </section>
+
+    <section id="prompt" class="screen" hidden>
+      <p class="meta" id="prompt-count"></p>
+      <h2 class="prompt-text" id="prompt-text"></h2>
+      <form class="answer-form" id="answer-form" autocomplete="off">
+        <input id="answer" name="answer" maxlength="60" autocomplete="off" autocapitalize="off"
+               autocorrect="off" spellcheck="false" enterkeyhint="go" aria-label="Your answer"
+               placeholder="ONE THING">
+        <button class="btn" id="submit" type="submit">GO</button>
+      </form>
+      <div class="timer" id="timer" role="timer" aria-live="off">
+        <div class="timer-track"><div class="timer-bar" id="timer-bar"></div></div>
+        <span class="timer-num" id="timer-num"></span>
+      </div>
+    </section>
+
+    <section id="reveal" class="screen screen-center" hidden>
+      <p class="meta" id="reveal-count"></p>
+      <p class="reveal-answer" id="reveal-answer"></p>
+      <p class="reveal-points" id="reveal-points"></p>
+      <p class="reveal-detail" id="reveal-detail"></p>
+      <button class="btn" id="next" type="button">DESCEND</button>
+    </section>
+
+    <section id="results" class="screen" hidden>
+      <p class="meta" id="results-dive"></p>
+      <p class="results-depth"><span id="results-depth">0</span><small> M</small></p>
+      <div class="trench-bar" aria-hidden="true"><div class="trench-fill" id="trench-fill"></div></div>
+      <p class="results-rank" id="results-rank"></p>
+      <div class="results-actions">
+        <button class="btn" id="share" type="button">SHARE</button>
+      </div>
+      <ol class="log" id="log"></ol>
+      <p class="meta next-dive" id="next-dive"></p>
+    </section>
+
+    <section id="error" class="screen screen-center" hidden>
+      <p class="reveal-points">LOST SIGNAL</p>
+      <p class="reveal-detail" id="error-detail"></p>
+      <button class="btn" id="retry" type="button">TRY AGAIN</button>
+    </section>
+  </main>
+
+  <template id="log-entry">
+    <li class="log-entry">
+      <p class="log-prompt"></p>
+      <p class="log-mine"><span class="log-answer"></span><span class="log-points"></span></p>
+      <ul class="school"></ul>
+    </li>
+  </template>
+</body>
+</html>

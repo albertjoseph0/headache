@@ -1,0 +1,142 @@
+# One prompt per line. Lines starting with # are ignored.
+# Good prompts have a few obvious answers and a long tail of rare-but-fair ones.
+# Days that have already been dealt are saved in the database, so editing this
+# file only changes future days.
+
+Name a fruit that's red
+Name something you'd find in a fridge
+Name an animal with stripes
+Name a famous painter
+Name a reason to be late for work
+Name a word that rhymes with "cat"
+Name a sport played with a ball
+Name something people do on a first date
+Name a country in Europe
+Name a vegetable that grows underground
+Name something you'd pack for a beach day
+Name a musical instrument with strings
+Name a breakfast food
+Name a job that requires a uniform
+Name something that's yellow
+Name a fish
+Name a city with a famous tower
+Name a board game
+Name something with wheels
+Name a planet or moon
+Name a kind of tree
+Name something you'd find in a bathroom
+Name a superhero
+Name a Shakespeare play
+Name a bird that can't fly
+Name a cheese
+Name a thing that comes in pairs
+Name a dance
+Name something that melts
+Name a pasta shape
+Name a fairy tale
+Name an insect
+Name a holiday
+Name something you'd see at a circus
+Name a flower
+Name a gemstone
+Name something that's cold
+Name a famous scientist
+Name a type of shoe
+Name a thing you'd find in a pirate's treasure chest
+Name a spice
+Name a dog breed
+Name something people collect
+Name a card game
+Name a farm animal
+Name something you plug in
+Name a language
+Name a mythological creature
+Name a sandwich
+Name a winter sport
+Name something round
+Name a hat
+Name an Olympic event
+Name something in the night sky
+Name a cocktail
+Name a nut
+Name a famous ship
+Name a reason to call in sick
+Name something that's sticky
+Name a dinosaur
+Name an ocean creature with tentacles
+Name a hobby you can do alone
+Name a type of weather
+Name a children's TV character
+Name something you'd find in a toolbox
+Name a classic car brand
+Name a soup
+Name a citrus fruit
+Name something that's loud
+Name a sea creature with a shell
+Name a famous detective
+Name a kitchen utensil
+Name a type of bread
+Name something people are afraid of
+Name a color that isn't in the rainbow
+Name a desert animal
+Name a famous bridge
+Name a sauce
+Name something you'd find at a wedding
+Name a fabric
+Name a magic trick or illusion
+Name a mountain
+Name something with a tail that isn't an animal
+Name a herb
+Name a thing that's often stolen
+Name a wild cat
+Name something you blow
+Name a river
+Name a game played at a party
+Name a type of boat
+Name something in a first aid kit
+Name a famous composer
+Name something that's soft
+Name a candy or chocolate bar
+Name a thing you'd find at the bottom of the sea
+Name a reptile
+Name a pizza topping
+Name something that grows
+Name a type of hat worn for a job
+Name a famous robot
+Name something you can't take on a plane
+Name a dessert
+Name something that has keys
+Name a constellation
+Name a martial art
+Name a berry
+Name something you'd find in a classroom
+Name a type of cloud
+Name a famous wizard or witch
+Name something that's shiny
+Name a garden tool
+Name an island
+Name a thing you do every morning
+Name a thing with a screen
+Name a monster from a movie
+Name something you'd find in a museum
+Name a drink served hot
+Name an animal that lives in a shell or burrow
+Name a famous queen
+Name something that floats
+Name a deep-sea creature
+Name a type of knot
+Name an excuse for not doing homework
+Name something that comes in a can
+Name a thing that's often lost
+Name a sea or ocean
+Name a cartoon animal
+Name a type of light
+Name a farm crop
+Name something that bounces
+Name a thing with stripes that isn't an animal
+Name a famous horse
+Name a nickname for a grandparent
+Name a pet that isn't a cat or dog
+Name a thing that ticks
+Name an animal that hibernates
+Name something you'd find in a cave
